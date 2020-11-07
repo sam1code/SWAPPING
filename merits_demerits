@@ -1,0 +1,4 @@
+The space complexity decreases.
+There is no increase of time complexity.
+The total lines of code is same for both with extra variable and without extra variable.
+Using that algorith it's quite easy to do any swapping program without taking any extra variable.
