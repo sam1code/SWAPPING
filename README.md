@@ -40,3 +40,4 @@ iii. 	     a=a+b+c+d+e
 	     e=a-(b+c+d+e)
 	     a==a-(b+c+d+e)
 
+/* Made by Soumyakanta pattanaik*/
