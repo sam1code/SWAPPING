@@ -1,0 +1,43 @@
+/*swapping of 4 variables */
+/*java code*/
+import java.util.Scanner;
+class Swap
+{
+	public static void main(String args[])
+	{
+		Scanner g=new Scanner(System.in);
+		System.out.println("Enter 4 numbers : \n");
+		int a=g.nextInt();
+		int b=g.nextInt();
+		int c=g.nextInt();
+		int d=g.nextInt();
+		
+		a=a+b+c+d;
+		d=a-(b+c+d);//a
+		c=a-(d+b+c);//b
+		b=a-(d+b+c);//c
+		a=a-(d+b+c);//d
+		System.out.println("The numbers after swapping "+a+","+b+","+c+","+d);
+	}
+}
+//c code
+#include<stdio.h>
+void main()
+{
+	int a,b,c,d;
+	printf("Enter a= ");
+	scanf(" %d",&a);
+	printf("Enter b= ");
+	scanf(" %d",&b);
+	printf("Enter c= ");
+	scanf(" %d",&c);
+	printf("Enter d= ");
+	scanf(" %d",&d);
+	a=a+b+c+d;
+		d=a-(b+c+d);
+		c=a-(d+b+c);
+		b=a-(d+b+c);
+		a=a-(d+b+c);
+	printf("The numbers after swapping %d , %d , %d , %d ",a,b,c,d);
+
+}
